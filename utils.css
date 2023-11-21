@@ -87,7 +87,7 @@
 }
 
 .event_banner{
-    background: linear-gradient(90deg, midnightblue, forestgreen);
+    background: linear-gradient(90deg, midnightblue, slateblue);
     display: flex;
     justify-content: center;
 }
