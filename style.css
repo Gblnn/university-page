@@ -13,3 +13,7 @@ button{
   background: none;
   border: none;
 }
+
+svg{
+  width:0.65rem
+}
