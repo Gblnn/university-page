@@ -43,6 +43,7 @@
     transition: 0.3s;
     width: 5rem;
     color: #9a9a9a;
+    font-size: 0.8rem;
     cursor: pointer;
     user-select: none;
 }
