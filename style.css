@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
+body{
+  color-scheme: dark;
+  background-color: aliceblue;
+}
+
+button{
+  background: none;
+  border: none;
+}

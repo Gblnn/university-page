@@ -1,0 +1,161 @@
+
+
+#preloader{
+    background: black url(public/ring.gif) no-repeat center center;
+    background-size: 75%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.container{
+    width: 100%;
+}
+
+.search_icon{
+    color: #9a9a9a;
+    width: 1.5rem;
+    transition: 0.3s;
+}
+
+.search_button{
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.search_icon:hover{
+    color:white;
+}
+
+.location_header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #2a2a2a;
+}
+
+.location_button{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 600;
+    transition: 0.3s;
+    width: 5rem;
+    color: #9a9a9a;
+    cursor: pointer;
+    user-select: none;
+}
+
+.location_button:hover{
+    color: white;
+}
+
+.location_active{
+    color: white;
+}
+
+.header_logo{
+    width: 5rem;
+}
+
+.header_container{
+    display: flex;
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+}
+
+.header_title{
+    color: #9a9a9a;
+    font-weight: 500;
+    user-select: none;
+}
+
+.header_button{
+    border: 1px solid #2a2a2a;
+}
+
+.banner_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner_img{
+    width: 100%;
+    object-fit:none;
+}
+
+.banner{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_text{
+    padding: 3rem;
+}
+
+.heading{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.sub_heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.desc{
+    margin-top: 1rem;
+    font-size: 0.5dv75;
+    color: #9a9a9a;
+    font-weight: 400;
+}
+
+@media (min-width:475px){
+
+}
+
+@media (min-width:768px){
+
+    .banner_content{
+        flex-wrap: nowrap;
+    }
+
+    .banner_img{
+        width: 50%;
+    }
+
+    .heading{
+        font-size: 1.75rem;
+    }
+
+    .header_logo{
+        width:8rem;
+    }
+    
+
+}
+
+@media (min-width:1024px){
+    .location_header{
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+    .banner_img{
+        width: 50%;
+    }
+    .banner{
+        width: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 1.25rem;
+    }
+}
