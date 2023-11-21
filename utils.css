@@ -21,7 +21,6 @@
 
 .search_button{
     border-radius: 1rem;
-    margin-right: 0.5rem;
     margin-left: 1rem;
     cursor: pointer;
 }
@@ -124,6 +123,7 @@
     font-weight: 500;
     padding: 1rem;
     border-bottom: 1px solid grey;
+    user-select: none;
 }
 
 .sub_heading{
@@ -203,11 +203,16 @@
     height: 30ch;
     border: 1px solid grey;
     border-radius: 1rem;
-    background-color: #1a1a1a
+    background-color: #1a1a1a;
+    transition: 0.3s;
+}
+.feature:hover{
+    background-color: #2a2a2a;
 }
 
 .feature_text{
     padding: 1.5rem;
+    user-select: none;
 }
 
 @media (min-width:475px){
@@ -274,6 +279,7 @@
         margin-right: 2rem;
     }
     .banner_pitch{
-        padding: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 }
