@@ -173,6 +173,16 @@
     color: white;
 }
 
+.searchbar{
+    padding-left: 0.5rem;
+    width: 12rem;
+    display: none;
+}
+
+.search_button:focus + .searchbar{
+    display: block;
+}
+
 @media (min-width:475px){
 
 }
