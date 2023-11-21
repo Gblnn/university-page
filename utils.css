@@ -142,6 +142,8 @@
     translate: tran;
 }
 
+
+
 @media (min-width:475px){
 
 }
@@ -165,6 +167,10 @@
     }
     .header_logo{
         margin-left: 1rem;
+    }
+
+    #preloader{
+        background-size: 25%;
     }
 
 }
