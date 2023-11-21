@@ -100,7 +100,7 @@
 }
 
 .banner{
-    background-color: black;
+    /* background: linear-gradient(-65deg, #5087e6,black); */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -135,7 +135,7 @@
 .desc{
     margin-top: 1rem;
     font-size: 1rem;
-    color: #9a9a9a;
+    color: aliceblue;
     font-weight: 400;
 }
 
