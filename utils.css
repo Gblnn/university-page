@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    background-color: #3a3a3a;
+    background-color: goldenrod;
 }
 
 .location_button{
@@ -43,7 +43,7 @@
     font-weight: 600;
     transition: 0.3s;
     width: 5rem;
-    color: #9a9a9a;
+    color: #4a4a4a;
     font-size: 0.8rem;
     cursor: pointer;
     user-select: none;
@@ -142,11 +142,12 @@
     cursor: pointer;
     transition: 0.3s;
     font-size: 1rem;
-    width:8rem;
+    width:10rem;
 }
 
 .white_btn:hover{
-    translate: tran;
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 20px white;
 }
 
 .right{
@@ -177,6 +178,22 @@
     padding-left: 0.5rem;
     width: 8.5rem;
     font-size: 1rem;
+}
+
+.feature_container{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.feature{
+    width: 30ch;
+    height: 30ch;
+    border: 1px solid grey;
+    border-radius: 1rem;
 }
 
 @media (min-width:475px){
