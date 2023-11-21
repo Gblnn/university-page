@@ -1,3 +1,7 @@
+:root{
+  color-scheme: dark;
+}
+
 *{
   margin: 0;
   line-height: calc(1em + 0.5rem);
@@ -5,7 +9,6 @@
 }
 
 body{
-  color-scheme: dark;
   background-color: black;
 }
 

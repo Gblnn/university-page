@@ -175,12 +175,8 @@
 
 .searchbar{
     padding-left: 0.5rem;
-    width: 12rem;
-    display: none;
-}
-
-.search_button:focus + .searchbar{
-    display: block;
+    width: 10rem;
+    font-size: 1rem;
 }
 
 @media (min-width:475px){
@@ -206,6 +202,10 @@
     }
     .header_logo{
         margin-left: 2rem;
+    }
+
+    .searchbar{
+        width:15rem
     }
     
 
