@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    background-color: #2a2a2a;
+    background-color: #3a3a3a;
 }
 
 .location_button{
@@ -87,7 +87,7 @@
 }
 
 .event_banner{
-    background-color: #2a2a2a;
+    background: linear-gradient(90deg, midnightblue, black);
     display: flex;
     justify-content: center;
 }
@@ -163,7 +163,9 @@
     .header_logo{
         width:8rem;
     }
-    
+    .header_logo{
+        margin-left: 1rem;
+    }
 
 }
 
@@ -183,5 +185,9 @@
     }
     .desc{
         font-size: 1.25rem;
+    }
+    .location_button{
+        font-size: 1rem;
+        width: 6rem;
     }
 }
