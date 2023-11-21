@@ -134,6 +134,8 @@
     border-radius: 0.5rem;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1rem;
+    width:8rem;
 }
 
 .white_btn:hover{
