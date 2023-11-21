@@ -20,3 +20,7 @@ button{
 svg{
   width:0.75rem
 }
+
+.empty{
+  height: 4rem;
+}
